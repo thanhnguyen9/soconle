@@ -8,12 +8,13 @@ body {
 }
 
 .wide {
-  width:100%;
-  height:100%;
-  height:calc(100% - 1px);
-  background-image:url('http://i.imgur.com/cTAJDin.jpg');
-  background-size:cover;
-}
+    background-image:url('https://www.glamsquad.com/deployments/20160311/wp-content/uploads/2013/10/IMG_35561.jpg');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%
+  }
 
 .wide img {
   width:100%;
