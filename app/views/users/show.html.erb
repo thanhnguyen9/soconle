@@ -1,0 +1,22 @@
+<%= render partial: "usernav" %>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h1>Welcome</h1>
+      <%= simple_format(current_user.bio) %>
+    </div>
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <div class="caption">
+          <span><img src="https://avatars2.githubusercontent.com/u/7451586?v=3&s=460" alt=""></span>
+
+          <h3><%= current_user.first_name %> <%= current_user.last_name %></h3>
+          <p>Address: <%= current_user.address %></p>
+          <p>Phone: <%= current_user.phone %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
